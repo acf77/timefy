@@ -1,0 +1,29 @@
+@import url("http://fonts.cdnfonts.com/css/circular-std");
+
+body {
+  background-color: black;
+  color: #f2f2f2;
+  font-family: "Circular Std", sans-serif;
+}
+
+.btn-primary {
+  background-color: #64d762;
+  border-color: #64d762;
+}
+
+.p-3.m-3.card {
+  background-color: #282828;
+}
+
+h5,
+h2 {
+  color: #f2f2f2;
+}
+
+span {
+  font-size: 14pt;
+}
+
+.form-label {
+  font-size: 14pt;
+}
