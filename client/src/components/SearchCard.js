@@ -7,7 +7,6 @@ export const SearchCard = (artist) => {
 
   const handleYear = () => {
     navigate(`/album/${artist.id}`);
-    // console.log(`${artist.images[0].url}`);
   };
 
   return (

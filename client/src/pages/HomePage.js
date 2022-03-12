@@ -29,10 +29,7 @@ export const HomePage = () => {
       <Form onSubmit={handleSearch}>
         <FormLabel>Timefy</FormLabel>
         <FormControl onChange={(e) => setSearch(e.target.value)} />
-        <Stack direction="horizontal" gap={3}>
-          <Form.Check type="checkbox" label="Artist" />
-          <Form.Check type="checkbox" label="Album" />
-        </Stack>
+        <Stack direction="horizontal" gap={3}></Stack>
         <Button type="submit">
           {" "}
           <strong>Search</strong>{" "}

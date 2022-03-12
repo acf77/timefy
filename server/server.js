@@ -46,10 +46,8 @@ app.post("/api/artist/album", urlEncodedParser, (req, res) => {
       );
 
       res.status(200).json(data);
-      console.log(data);
     } catch (error) {
       res.status(400).json(error);
-      console.error(error);
     }
   };
 
