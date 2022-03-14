@@ -1,4 +1,9 @@
 @import url("http://fonts.cdnfonts.com/css/circular-std");
+@import url("https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap");
+
+.p-3.m-3.card.skeleton {
+  font-family: "Flow Circular", cursive;
+}
 
 body {
   background-color: black;
@@ -18,6 +23,7 @@ body {
 h5,
 h2 {
   color: #f2f2f2;
+  position: relative;
 }
 
 span {
@@ -26,4 +32,26 @@ span {
 
 .form-label {
   font-size: 14pt;
+}
+
+.loading {
+  position: relative;
+}
+.loading::before {
+  position: relative;
+  color: #f2f2f2;
+  position: relative;
+  content: attr(data-text);
+  position: absolute;
+  overflow: hidden;
+  max-width: 10em;
+  white-space: nowrap;
+  color: rgb(196, 195, 195);
+  animation: loading 1s linear infinite;
+}
+
+@keyframes loading {
+  0% {
+    max-width: 0;
+  }
 }
